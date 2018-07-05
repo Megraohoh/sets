@@ -1,4 +1,4 @@
-# NSS Exercise: Python list
+# NSS Exercise: Python set
 
 ### Description:
 Work with set methods in Python
