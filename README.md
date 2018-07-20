@@ -2,7 +2,7 @@
 
 ### Description:
 Work with set methods in Python
-## Instructions
+## Instructions: Part 1
 
 1. Create an empty set named `showroom`.
 1. Add four of your favorite car model names to the set.
@@ -28,6 +28,31 @@ cars.py
 
 ```
 
+## Instructions: Part 2 (Nickelback)
+
+1. Define a set that contains tuples. Each tuple should contain two strings:
+    1. The name of an artist
+    1. A song by that artist
+
+    Make sure that some of the songs are from the band Nickelback. You can see a [list of their greatest hits](https://www.amazon.com/Best-Nickelback-1/dp/B00FFERTUK/) on Amazon.
+    ```
+    # Example set
+    songs = {
+        ('Nickelback', 'How You Remind Me'), 
+        ('Will.i.am', 'That Power'),
+        ('Miles Davis', 'Stella by Starlight'),
+        ('Nickelback', 'Animals')
+    }
+    ```
+2. Using a set comprehension, create a new set that contains all songs that were not performed by Nickelback.
+
+### How to run in terminal (Brew and Python used):
+```
+git clone https://github.com/Megraohoh/sets
+cd sets
+nickelback.py
+
+```
 
 ### Contributors:
 [Meghan Debity](https://github.com/Megraohoh)
