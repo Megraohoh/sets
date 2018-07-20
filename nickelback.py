@@ -7,7 +7,7 @@ songs = {
     ("Nickelback", "Animals")
 }
 
-# New variable to hold set. Start at index 0 and itterate over and evaluate which tuples include "Nickelback" and remove them. Print the new dictionary.
+# New variable to hold set. Start at index 0 and evaluate which tuples include "Nickelback" in that position and remove them. Print the new dictionary.
 good_songs = {(song[0], song[1]) for song in songs if song[0] != 'Nickelback'}
 
 print(good_songs)
